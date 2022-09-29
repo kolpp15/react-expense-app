@@ -24,9 +24,9 @@ const App = () => {
     },
   ];
 
-  const addExpenseHandler = expense => {
-    console.log(expenses)
-  }
+  const addExpenseHandler = (expense) => {
+    console.log(expenses);
+  };
 
   return (
     <div>
@@ -34,6 +34,6 @@ const App = () => {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
